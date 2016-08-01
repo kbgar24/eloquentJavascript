@@ -47,7 +47,7 @@ while (count <= 100){
     } else if (count % 5 === 0){
         console.log('Buzz');
     } else {console.log(count);}
-    count++
+    count++;
 }
 
 //Bonus Task
@@ -60,13 +60,13 @@ while (count <= 100){
     } else if (count % 5 === 0){
         console.log('Buzz');
     } else {console.log(count);}
-    count++
+    count++;
 }
 
 
 /*---------------ChessBoard ------------------/
 
-Write a program that creates a string that represents an 88 grid, using new-
+Write a program that creates a string that represents an 8-by-8 grid, using new-
 line characters to separate lines. At each position of the grid there is either a
 space or a “#” character. The characters should form a chess board.
 Passing this string to console.log should show something like this:
